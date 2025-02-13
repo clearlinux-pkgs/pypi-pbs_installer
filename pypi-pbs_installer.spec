@@ -7,7 +7,7 @@
 #
 Name     : pypi-pbs_installer
 Version  : 2025.2.12
-Release  : 15
+Release  : 16
 URL      : https://files.pythonhosted.org/packages/d6/66/390b96db3f1f455196cc85c60ec00a2c5194ec97ff228b72eb5d62a8410d/pbs_installer-2025.2.12.tar.gz
 Source0  : https://files.pythonhosted.org/packages/d6/66/390b96db3f1f455196cc85c60ec00a2c5194ec97ff228b72eb5d62a8410d/pbs_installer-2025.2.12.tar.gz
 Summary  : Installer for Python Build Standalone
