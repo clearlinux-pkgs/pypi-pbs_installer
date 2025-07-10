@@ -1,5 +1,5 @@
 PKG_NAME := pypi-pbs_installer
-URL = https://files.pythonhosted.org/packages/d0/7b/fe5b1d0584096c2ebdd9fed50e868ec6c1521ffd38390a2323f78060ab1e/pbs_installer-2025.7.2.tar.gz
+URL = https://files.pythonhosted.org/packages/cc/13/2699897252969efde2dc62add9dfe4fa74faeafda0826927266a367ef079/pbs_installer-2025.7.8.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
