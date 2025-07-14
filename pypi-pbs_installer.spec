@@ -6,10 +6,10 @@
 # autospec commit: 65cf152
 #
 Name     : pypi-pbs_installer
-Version  : 2025.7.8
-Release  : 27
-URL      : https://files.pythonhosted.org/packages/cc/13/2699897252969efde2dc62add9dfe4fa74faeafda0826927266a367ef079/pbs_installer-2025.7.8.tar.gz
-Source0  : https://files.pythonhosted.org/packages/cc/13/2699897252969efde2dc62add9dfe4fa74faeafda0826927266a367ef079/pbs_installer-2025.7.8.tar.gz
+Version  : 2025.7.12
+Release  : 28
+URL      : https://files.pythonhosted.org/packages/e7/cd/1c937c5a57b1b004110e2e0662307bab7bf5a3ea41510bbec3a5f60ac49b/pbs_installer-2025.7.12.tar.gz
+Source0  : https://files.pythonhosted.org/packages/e7/cd/1c937c5a57b1b004110e2e0662307bab7bf5a3ea41510bbec3a5f60ac49b/pbs_installer-2025.7.12.tar.gz
 Summary  : Installer for Python Build Standalone
 Group    : Development/Tools
 License  : MIT
@@ -64,15 +64,15 @@ python3 components for the pypi-pbs_installer package.
 
 
 %prep
-%setup -q -n pbs_installer-2025.7.8
-cd %{_builddir}/pbs_installer-2025.7.8
+%setup -q -n pbs_installer-2025.7.12
+cd %{_builddir}/pbs_installer-2025.7.12
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1752157245
+export SOURCE_DATE_EPOCH=1752502406
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
